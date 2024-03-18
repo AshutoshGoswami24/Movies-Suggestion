@@ -16,7 +16,7 @@ async function getDets() {
     let ranIndex = Math.floor(Math.random() * resData.results.length)
     let movie = resData.results[ranIndex]
     movieDets.innerHTML = `
-    <h3>!Upload On Movie Search Panda</h3>
+    <h3>!Watch Now</h3>
     <h4><span>Title:</span> ${movie.title}</h4>
                         <h4><span>movie overview:</span> ${movie.overview}</h4>
                         <h4><span>Release Date:</span> ${movie.release_date}</h4>
