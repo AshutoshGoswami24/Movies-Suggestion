@@ -31,7 +31,24 @@ body {
     background-image: url();
 }
 
+#reloadButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    width: 180px;
+    height: 180px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#reloadIcon {
+    width: 80%; /* Adjust the size of the icon as needed */
+    height: auto;
+}
 nav {
     height: 80px;
     width: 100vw;
@@ -385,6 +402,7 @@ button:active {
     align-items: center;
     top: 1%;
     height: 100%;
+    margin-bottom: 50px;
     width: 95%;
     border: 7px solid #ffffff56; 
     position: relative;
@@ -426,7 +444,7 @@ button:active {
 
 .movieimg {
     /* height: 100%; */
-    width: 45vw;
+    width: 75vw;
     /* background-color: #100206; */
     display: flex;
     justify-content: center;
@@ -435,13 +453,13 @@ button:active {
 }
 
 .movieimg img {
-    max-height: 400px;
+    max-height: 800px;
     box-shadow: 2px 2px 100px 70px rgba(0, 0, 0, 0.566);
 }
 
 .movieDets span {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .movieDets h4:nth-child(2) {
