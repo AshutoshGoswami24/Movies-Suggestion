@@ -5,7 +5,7 @@ Welcome to the Random Movie Suggestion Generator! This web application helps you
 
 ## How to Use
 
-1. Visit the [Random Movie Suggestion Generator website](https://ashutoshgoswami24.github.io/Movies-Suggestion/main.html).
+1. Visit the [Random Movie Suggestion Generator website](https://ashutoshgoswami24.github.io/Movies-Suggestion/).
 2. Simply click the "Generate Movie" button, and the application will present you with a random movie suggestion.
 3. If you're interested in learning more about the suggested movie, click on the movie title to view additional details like the synopsis, cast, and ratings.
 
