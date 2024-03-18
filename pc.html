@@ -8,29 +8,20 @@
         <link rel="stylesheet" href="css_AshutoshGoswami24.css">
         <title> For Pc Random Movie Suggestion Generator</title>
         <script>
-            // Call getDets() function when the page loads
+// Call getDets() function when the page loads
 window.onload = function() {
-    getDets();
-    // Set up a loop to recall the function every 10 seconds
+    // Set up a loop to call the function every 10 seconds
     setInterval(getDets, 10000); // 10000 milliseconds = 10 seconds
 };
 
 // Define your getDets() function
 function getDets() {
-    // Your code to fetch details goes here
+    // Your code to fetch details or perform any other task goes here
     console.log("Fetching details...");
-    // Example: Fetching data from an API
-    fetch('https://api.example.com/details')
-        .then(response => response.json())
-        .then(data => {
-            // Handle the fetched data
-            console.log(data);
-        })
-        .catch(error => {
-            console.error('Error fetching details:', error);
-        });
+    // Example: Simulating fetching data
+    var randomData = Math.random();
+    console.log("Random data:", randomData);
 }
-
         </script>
     </head>
         <boay>
