@@ -384,7 +384,7 @@ button:active {
     justify-content: center;
     align-items: center;
     top: 1%;
-    height: 500px;
+    height: 100%;
     width: 95%;
     border: 7px solid #ffffff56; 
     position: relative;
