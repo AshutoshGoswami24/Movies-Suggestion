@@ -7,31 +7,9 @@
         <script src="js_AshutoshGoswami24.js"></script>
         <link rel="stylesheet" href="css_AshutoshGoswami24.css">
         <title> For Pc Random Movie Suggestion Generator</title>
-        <script>
-// Call getDets() function when the page loads
-window.onload = function() {
-    // Set up a loop to call the function every 10 seconds
-    setInterval(getDets, 10000); // 10000 milliseconds = 10 seconds
-};
-
-// Define your getDets() function
-function getDets() {
-    // Your code to fetch details or perform any other task goes here
-    console.log("Fetching details...");
-    // Example: Simulating fetching data
-    var randomData = Math.random();
-    console.log("Random data:", randomData);
-}
-        </script>
     </head>
-        <boay>
-            
-        <center>
-            <h1>
-                 Random Movie Suggestion Generator
-            </h1>
-        </center>
-        <div class="movieSug">  
+        <boay onclick="getDets()">
+            <div class="movieSug">  
             <div class="movieDets"></div>
             <div class="movieimg"><img src=""></div>
             
@@ -43,7 +21,6 @@ function getDets() {
                         <div class="movieDets-mini"></div>
                     </div>
                    
-        </div>
-              
+        </div> 
         </boay>
 </html>
