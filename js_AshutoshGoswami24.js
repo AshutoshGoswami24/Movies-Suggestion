@@ -1,5 +1,5 @@
-//jaldi yeha se hato
-// (c) lord krishna (c) biisal
+//bhi isko remove na karno ok by AshutoshGoswami24 
+// git clone https://github.com/AshutoshGoswami24/Movies-Suggestion
 
 async function getDets() {
     let randPage = Math.floor(1 + Math.random() * 100)
