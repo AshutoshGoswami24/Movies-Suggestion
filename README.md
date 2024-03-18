@@ -22,7 +22,7 @@ If you have any feedback, suggestions, or encounter any issues while using the R
 
 ## About
 
-This project is developed and maintained by [Your Name]. It utilizes various technologies such as HTML, CSS, and JavaScript.
+This project is developed and maintained by [Ashutosh](https://github.com/ashutoshgoswami24) . It utilizes various technologies such as HTML, CSS, and JavaScript.
 
 ## License
 
